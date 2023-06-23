@@ -1,9 +1,8 @@
 export default function Home() {
-  let name = 'park'
   return (
-    <div>
-      <h4 className="title" style={{color:'red', fontSize:'30px'}}>홍짱후레쉬</h4>
-      <p className="title-sub">{name}</p>
-    </div>
+    <main>
+      <h1 className="title">Programming Log</h1>
+      <p className="title-sub">by dev kim</p>
+    </main>
   )
-}
+} 

@@ -1,9 +1,13 @@
-export default function Home() {
-  let name = 'park'
-  return (
-    <div>
-      <h4 className="title" style={{color:'red', fontSize:'30px'}}>상품목록</h4>
-      <p className="title-sub">{name}</p>
-    </div>
-  )
-}
+export default function List() {
+    return (
+      <div>
+        <h2>Products</h2>
+        <div className="food">
+          <h4>상품명 $40</h4>
+        </div>
+        <div className="food">
+          <h4>상품명 $40</h4>
+        </div>
+      </div>
+    )
+  } 
